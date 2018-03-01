@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic tac toe game freecodecamp</title>
+    
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container game">
+  <h1 class="text-center">tic-tac-toe</h1>
+<div class="dropdown">
+  <button class="btn btn-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    How do you want to play?
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <button class="dropdown-item" id="friend">Play against a friend</button>
+    <button class="dropdown-item" id="pc">Play against pc</>
+  </div>
+</div>
+  <table class="table">
+  <thead>
+    <tr class="active">
+      <th scope="col" class="text-right"><button type="button"  class="btn btn-outline-primary o" id="o">Player O</button></th>
+      <th scope="col" class="text-left"><button type="button" class="btn btn-outline-primary x" id="x">PLayer X</button></th>
+    </tr>
+  </thead>
+</table>
+  <p  class="info text-center"></p>
+  <div>
+  <table class="table tic-tac" id="tic-tac" onclick='setvalue();'>
+  <tbody>
+    <tr class="first">
+      <td id="1"></td>
+      <td id="2"></td>
+      <td class="no-bord" id="3"></td>
+    </tr>
+    <tr class="sec">
+      <td id="4"></td>
+      <td id="5"></td>
+      <td class="no-bord" id="6"></td>
+    </tr>
+    <tr class=third>
+      <td id="7"></td>
+      <td id="8"></td>
+      <td class="no-bord" id="9"></td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  
+  <button type="button" class="btn btn-primary btn-lg btn-block btn-sm" id="restart">restart game</button>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

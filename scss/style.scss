@@ -1,0 +1,40 @@
+.game {
+  max-width:640px;
+  background-color: #dae9ea;
+}
+h1 {
+  margin-top: 30px;
+  font-size: 66px;
+  font-family:  "Comic Sans", cursive;
+  color: #1e607f;
+  }
+.tic-tac {
+  text-align: center;
+}
+.tic-tac > tbody > tr.first > td {
+  // border-top: 0.5px solid #000000;
+  border-right: 0.5px solid #000000;
+}
+.tic-tac > tbody > tr.sec > td {
+   border-top: 0.5px solid #000000;
+  border-right: 0.5px solid #000000;
+}
+.tic-tac > tbody > tr.third > td {
+   border-top: 0.5px solid #000000;
+  border-right: 0.5px solid #000000;
+}
+.tic-tac > tbody > tr.first > td.no-bord {
+   border-right: transparent;
+}
+.tic-tac > tbody > tr.sec > td.no-bord {
+   border-right: transparent;
+}
+.tic-tac > tbody > tr.third > td.no-bord {
+   border-right: transparent;
+}
+.tic-tac th, .table td {
+    padding: 2.0rem;
+    //width: 50%;
+    //padding-left: 159px;
+    text-align: center;
+}
